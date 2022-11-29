@@ -4,6 +4,6 @@ export const settings = {
     ipfsGateways: [
         "https://cloudflare-ipfs.com/ipfs/%s/%s",
         "https://%s.ipfs.dweb.link/%s",
-        "https://ipfs.io/ipfs/%s/%s"
+        "https://w3s.link/ipfs/%s/%s"
     ]
 }
