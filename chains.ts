@@ -165,6 +165,19 @@ export const CHAINS: { [chainId: number]: BasicChainInformation | ExtendedChainI
     },
     blockExplorerUrls: ['https://testnet.bscscan.com'],
   },
+  // Filecoin - Wallaby testnet
+  31415: {
+    urls: [
+      'https://wallaby.node.glif.io/rpc/v0',
+    ],
+    name: 'Filecoin Wallaby',
+    nativeCurrency: {
+      name: 'tFIL',
+      symbol: 'tFIL',
+      decimals: 18
+    },
+    blockExplorerUrls: ['https://explorer.glif.io/wallaby'],
+  },
   // Fantom
   250: {
     urls: [
