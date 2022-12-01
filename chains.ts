@@ -170,7 +170,7 @@ export const CHAINS: { [chainId: number]: BasicChainInformation | ExtendedChainI
     urls: [
       'https://wallaby.node.glif.io/rpc/v0',
     ],
-    name: 'Filecoin Wallaby',
+    name: 'testnet filecoin',
     nativeCurrency: {
       name: 'tFIL',
       symbol: 'tFIL',
